@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/rest-tutorial');
+mongoose.connect('mongodb://backender.herokuapp.com');
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
