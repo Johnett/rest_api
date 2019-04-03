@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://backender.herokuapp.com');
+mongoose.connect('mongodb+srv://dbUser:hai@cluster0-qtxyw.mongodb.net/test?retryWrites=true');
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
